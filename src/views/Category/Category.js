@@ -1,9 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Category = ({ name }) =>(
-    <section>
-        Category : {name}
-    </section>
+const Category = ({ categoryName }) => (
+  <section>
+    <h1>Category page: {categoryName}</h1>
+  </section>
 );
 
-export default Category;
+Category.propTypes = {
+  categoryName: PropTypes.string.isRequired,
+};
+
+export default Category;x
