@@ -4,11 +4,13 @@ import PropTypes from 'prop-types';
 
 const Home = ({ categories }) => (
   <section>
-    <h1>Homepage</h1>
+    <h1 className="home">Home</h1>
+    {/* <button type="submit">Easy</button>
+    <button type="submit">Hard</button> */}
     {categories.length > 0 && (
       <section>
         {categories.map(category => (
-          <Link to={`/categories/${category.id}`} key={category.id}>
+          <Link className="test"to={`/categories/${category.id}`} key={category.id}>
             {category.title}
           </Link>
         ))}

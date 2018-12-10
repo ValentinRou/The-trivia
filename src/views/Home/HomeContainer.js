@@ -11,10 +11,14 @@ class HomeContainer extends Component {
     this.setState({
       categories: data,
     });
+    console.log(data);
   }
+
   render() {
+    if (this.state.categories.length === 0) return <div></div>
     return (
       <Home categories={this.state.categories} />
+      
     );
   }
 }

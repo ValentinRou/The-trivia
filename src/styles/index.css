@@ -1,0 +1,125 @@
+html{
+  /* background: linear-gradient(167deg, rgba(233,56,63,0.9475140397956058) 0%, rgba(4,1,39,1) 54%); */
+  background-color:  #000000;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: stretch;
+}
+
+.test{
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 20px;
+  border-radius: 13px 0 13px 0;
+  text-decoration: none;
+  color: #FFF;
+  background: linear-gradient(168deg,  rgba(3,3,99,1) 15%, rgba(233,56,63,0.9475140397956058) 100%);
+  font-weight: 600;
+  box-shadow:0px 0px 10px 3px #6200c9;
+}
+
+.home{
+  font-family: Oxygen;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 6px 6px 12px #6200c9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Oxygen;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 6px 6px 12px #6200c9;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #6200c9;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.clue {
+  color: #fff;
+  font-weight: 200;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-shadow: 6px 6px 15px #6200c9;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid #6200c9;
+  border-radius: 13px 0 13px 0;
+  display: block;
+  text-align: center;
+  margin-left: 43%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 13px 0 13px 0;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(167deg, rgb(4, 1, 39) 35%, rgba(233,56,63,0.9475140397956058) 100%);
+  font-weight: 600;
+  font-size: 1em;
+  box-shadow:0px 0px 10px 2px #6200c9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.score {
+  color: #6200c9;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.return-home {
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 13px 0 13px 0;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(167deg, rgb(4, 1, 39) 35%, rgba(233,56,63,0.9475140397956058) 100%);
+  font-weight: 600;
+  box-shadow:0px 0px 10px 2px #6200c9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  border: 0px;
+  cursor: pointer;
+}
+
