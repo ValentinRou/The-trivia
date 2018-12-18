@@ -2,17 +2,18 @@ import React, { Component, createRef } from 'react';
 import api from '../../helpers/api';
 import Category from './Category';
 import { Link } from 'react-router-dom';
+import Clock from './Timer';
 
 class CategoryContainer extends Component {
   state = {
     category: null, 
     currentQuest: 0,
-    score: 0,
+    score: 0, 
     clues_count: 0,
+    currentCount: 10,
   }
 
-
-  answer = createRef()
+  answer = createRef() 
   async componentDidMount() {
     const data = await api.getCategoryById(this.props.match.params.id);
     this.setState({
@@ -41,6 +42,7 @@ class CategoryContainer extends Component {
   this.answer.current.value= ""; 
 
   }
+
 
 
 
@@ -110,5 +112,6 @@ else {
 }
 }
 }
+
 
 export default CategoryContainer;

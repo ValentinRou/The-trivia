@@ -6,7 +6,7 @@ class HomeContainer extends Component {
   state = {
     categories: [],
   }
-  async componentDidMount() {
+  async componentDidMount() {    
     const data = await api.getCategories();
     this.setState({
       categories: data,
@@ -15,9 +15,9 @@ class HomeContainer extends Component {
   }
 
   render() {
-    if (this.state.categories.length === 0) return <div></div>
+    if (this.state.categories.length === 0) return <div></div>  
     return (
-      <Home categories={this.state.categories} />
+      <Home categories={this.state.categories} />  
       
     );
   }

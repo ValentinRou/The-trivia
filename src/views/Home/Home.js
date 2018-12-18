@@ -8,9 +8,9 @@ const Home = ({ categories }) => (
     {/* <button type="submit">Easy</button>
     <button type="submit">Hard</button> */}
     {categories.length > 0 && (
-      <section>
+      <section> 
         {categories.map(category => (
-          <Link className="test"to={`/categories/${category.id}`} key={category.id}>
+          <Link className="test"to={`/categories/${category.id}`} key={category.id}> 
             {category.title}
           </Link>
         ))}

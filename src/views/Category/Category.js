@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Category = ({ category, checkAnswer, answer, currentQuest, score }) => (
+const Category = ({ category, checkAnswer, answer, currentQuest, score, Clock }) => (
   <section>
     <h1>Category page: {category.title}</h1>
     <h2>Clue {currentQuest + 1}</h2>
@@ -11,6 +11,7 @@ const Category = ({ category, checkAnswer, answer, currentQuest, score }) => (
     <button type="submit">Submit</button>
     </form>
     <p className="score">Score : {score} / 5</p>
+    <p className="Clock">Time : {Clock}</p>
   </section>
 );
 

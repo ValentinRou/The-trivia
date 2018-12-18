@@ -1,6 +1,6 @@
 html{
   /* background: linear-gradient(167deg, rgba(233,56,63,0.9475140397956058) 0%, rgba(4,1,39,1) 54%); */
-  background-color:  #000000;
+ background-color:  #000000;
   min-height: 100%;
 }
 
@@ -107,6 +107,12 @@ button {
   margin-bottom: 30px;
 }
 
+.Clock {
+  color: #6200c9;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
 .return-home {
   padding: 5px 10px;
   margin: 10px;
