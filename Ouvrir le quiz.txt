@@ -1,0 +1,7 @@
+Avoir ubuntu sur son pc 
+Deziper le fichier 
+ouvrir ubuntu 
+avec les commande cd et ls aller dans le fichier the-trivia 
+puis faire un yarn start pour lance le quiz 
+
+BONNE CHANCE :)
